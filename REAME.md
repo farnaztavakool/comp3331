@@ -7,3 +7,13 @@ I'm not gonna lie I cried a little when doing this
 5. next step is to run "initdb" but I got this error AKA what made me cry: initdb.bin: invalid locale settings; check LANG and LC_* environment variables 
 6. to solve run this in your machine's terminal: export LC_ALL="en_AU.UTF-8"  LC_CTYPE="en_AU.UTF-8"
 
+
+# How to set up alias for remote address
+1. vi ~/.ssh/config
+2. add the detail
+e.g:\
+Host ${name}\
+    HostName e.g: 192.168.225.22\
+    User e.g: sk
+
+
